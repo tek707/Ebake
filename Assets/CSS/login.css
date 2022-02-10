@@ -1,0 +1,59 @@
+body{
+  padding: 0px;
+  margin:0px;
+  font-family: serif;
+  font-size: 15px;
+
+  background-image:linear-gradient(rgba(219, 33, 33, 0.158),rgba(211, 12, 12, 0.37)),url(../IMG/all.jpg);
+  background-repeat:none;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+
+}
+p , label ,  a {
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+form{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  margin: 10px;
+  display:grid;
+    align-content: center;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+}
+input{
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
+
+label{
+  font-size: 15px;
+  font-weight: 200;
+}
+button{
+  padding: 0px;
+  margin: 0px;
+border-radius: 14px;
+width: 80px;
+padding-left: 25px;
+
+}
