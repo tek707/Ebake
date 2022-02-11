@@ -126,6 +126,25 @@ to{width:6em;}
 from{border-right-color: rgba(255,255,255,.75);}
 to{border-right-color: transparent;}
 }
+
+
+@media screen and (max-width: 600px){
+  .sub_topic{
+    padding-left: 0px;
+    font-size:50px;
+    width: 3em;
+  }
+
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width:6em;}
+    }
+    .foot_img{
+      width:350px;
+    
+    }
+
+}
 /* end of typewriter */
 
 /* buy product */
