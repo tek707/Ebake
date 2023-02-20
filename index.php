@@ -1,4 +1,4 @@
-<?php  include_once 'conn.php';?>
+<?php // include_once 'conn.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/JS/jquery.js">
+
     <link rel="stylesheet" href="Assets/CSS/bootstrap5.css">
     <link rel="stylesheet" href="Assets/CSS/basic.css?v=<?php echo time(); ?>">
 
@@ -80,7 +82,8 @@
         </section>
     </div>
 <br>
-<br><br>
+<br>
+<br>
 
 <div id="About">
 <section class="section padding-bottom-100">
@@ -203,19 +206,22 @@
   <img src="Assets/IMG/cream-cakes.jpg" class="stock_pic" alt="stock">
 	<figcaption>Cream cake</figcaption>
     <span class="price">GHS 15.00</span>
-    <a class="button" href="#">Buy Now</a>
+    <a class="button" href="Tel:+233 554 5680 90">Buy Now</a>
 	</figure>
   <figure>
   <img src="Assets\IMG/cookie.jpg" class="stock_pic" alt="stock">
 	<figcaption>Cookie</figcaption>
     <span class="price">GHS 20.00</span>
-    <a class="button" href="#">Buy Now</a>
+    <a class="button" href="Tel:+233 554 5680 90">Buy Now</a>
+
+    
 	</figure>
+  
   <figure>
   <img src="Assets\IMG/donuts.jpg" class="stock_pic" alt="stock">
 	<figcaption>Donuts</figcaption>
     <span class="price">GHS 10.00</span>
-    <a class="button" href="#">Buy Now</a>
+    <a class="button" href="Tel:+233 554 5680 90">Buy Now</a>
 	</figure>
 	
   </div>
@@ -247,7 +253,8 @@
                                   <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required>
                                 </fieldset>
                               </div>
-                            
+                            <br>
+                            <br>
                               <div class="col-lg-6 col-md-12 col-sm-12">
                                 <fieldset>
                                  
@@ -303,7 +310,8 @@
     </div>
     <br>
     <br>
-    
+      
+
 
     <footer class="footer" id="footer">
 
@@ -312,7 +320,7 @@
   <nav class="col-list">
     <ul>
      
-      <li><a href="#">Pricing</a></li>
+      <li><a href="#columns">Pricing</a></li>
       <li><a href="#">FAQ</a></li>
       <li><a href="#">Status</a></li>
     </ul>
@@ -323,9 +331,9 @@
   <h3 class="col-title">Products</h3>
   <nav class="col-list">
     <ul>
-      <li><a href="#">Bread</a></li>
-      <li><a href="#">Pie</a></li>
-      <li><a href="#">Cake</a></li>
+      <li><a href="#Products">Bread</a></li>
+      <li><a href="#Products">Pie</a></li>
+      <li><a href="#Products">Cake</a></li>
     </ul>
   </nav>
 </span>
@@ -334,7 +342,7 @@
   <h3 class="col-title">Company</h3>
   <nav class="col-list">
     <ul>
-      <li><a href="#">About Us</a></li>
+      <li><a href="#About">About Us</a></li>
       <li><a href="#">Terms of Service</a></li>
       <li><a href="#">Privacy</a></li>
     </ul>
@@ -355,10 +363,8 @@
    
 </span>
 </footer>
-    
-
-
+  
     <script src="Assets\JS\script.js"></script>
-
+   
 </body>
 </html>

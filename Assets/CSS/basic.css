@@ -98,7 +98,6 @@ z-index: 1;
 
 
 
-
 /* Typewriter text */
 
 .sub_topic{
@@ -131,13 +130,13 @@ to{border-right-color: transparent;}
 @media screen and (max-width: 600px){
   .sub_topic{
     padding-left: 0px;
-    font-size:50px;
+    font-size:30px;
     width: 3em;
   }
 
   @keyframes typewriter{
     from{width: 0;}
-    to{width:6em;}
+    to{width:10em;}
     }
     .foot_img{
       width:350px;
@@ -237,10 +236,6 @@ a.button:hover{
 @media screen and (max-width: 500px) {
   #columns figure { width: 100%;}
 }
-
-
-
-
 /* Our product image hover effect */
 
 .image__img {
@@ -491,17 +486,4 @@ footer ul {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
